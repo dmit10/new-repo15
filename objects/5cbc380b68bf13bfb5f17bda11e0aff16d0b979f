@@ -9,3 +9,11 @@
 	object = d9db34b07051f933624f4b328f6ccf92159ea808
 	path = module1
 	type = expand module
+[map "bf4571d3-c467-372a-b60a-98e10f25ba1e"]
+	object = 991d367e3bdddc11c77439542c5170ab76301c89
+	path = module1
+	type = expand module
+[map "40765b6c-e295-3494-af31-8b78a4923ad7"]
+	object = 991d367e3bdddc11c77439542c5170ab76301c89
+	path = module2
+	type = expand module
