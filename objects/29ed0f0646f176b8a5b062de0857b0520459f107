@@ -1,0 +1,60 @@
+[map "6b338323-3ea2-365f-9689-44cc1b6a6f97"]
+	object = 5cbc380b68bf13bfb5f17bda11e0aff16d0b979f
+	path = module1
+	stage = sync
+	type = extract module
+[map "8f639092-9474-3668-bf57-1da1e701778e"]
+	object = 5cbc380b68bf13bfb5f17bda11e0aff16d0b979f
+	path = module4
+	stage = sync
+	type = extract module
+[map "24499774-cfe1-37ec-b03f-716197b9bdbc"]
+	object = b0cffe4ac55663a34619b052df5d7f0724caaad6
+	path = module
+	stage = sync
+	type = extract module
+[map "ec061a63-00eb-3830-b2ec-f4d4f4ea18f4"]
+	object = 5cbc380b68bf13bfb5f17bda11e0aff16d0b979f
+	path = module5
+	stage = sync
+	type = extract module
+[module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
+	conflict = request-pull
+	path = module
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://github-cloud/1047846
+[module "8c02719b-177d-347d-91e0-469a4ccbf93a"]
+	conflict = request-pull
+	path = module1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://github-cloud/481606576
+[module "070d365b-bf8b-33ae-a3ff-5905f1910ae3"]
+	conflict = request-pull
+	path = module2
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://github-cloud/481606576
+[module "2ac046d4-922e-3ca8-9f80-8ad9eca04c91"]
+	conflict = request-pull
+	path = module4
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://github-cloud/481606576
+[module "4aaa3b6f-6c25-3395-9818-e4c0c64df45a"]
+	conflict = request-pull
+	path = module5
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://github-cloud/481606576
+[map "d3d34f30-7722-3fc1-a0d3-c8837c51b86a"]
+	object = 5cbc380b68bf13bfb5f17bda11e0aff16d0b979f
+	path = module2
+	stage = sync
+	type = extract module
