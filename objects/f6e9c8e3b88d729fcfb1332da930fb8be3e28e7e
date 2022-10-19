@@ -1,3 +1,7 @@
 [map "815ff69f-f743-389d-b33d-38a5d053598e"]
 	object = 15e39549d8139c7a0c98c96a9295e6a298ac8058
 	type = extract tree + exclude
+[map "6c63c08a-245c-3f97-b47f-01847ce67105"]
+	object = ba5657ac79329df26c68198a907efac6f4f4501c
+	path = module
+	type = expand module
