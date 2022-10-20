@@ -1,11 +1,15 @@
 [map "815ff69f-f743-389d-b33d-38a5d053598e"]
 	object = 15e39549d8139c7a0c98c96a9295e6a298ac8058
 	type = extract tree + exclude
-[map "2d26d4ad-131e-3b73-b7b9-e2106dc69e99"]
-	object = 35b0fcb8c9e5ce136eadd6de8a6b4839e775e9b3
+[map "fbf3f742-caa7-3c21-996c-6ceb1299bd2d"]
+	object = df9f572b30900d79da782df8682bb374aef9816d
 	path = module
 	type = expand module
-[map "a51dc94d-4ac6-3027-86b7-42e753bf41a4"]
-	object = 35b0fcb8c9e5ce136eadd6de8a6b4839e775e9b3
+[map "1243b42b-7450-3029-8f16-e2b87e387468"]
+	object = df9f572b30900d79da782df8682bb374aef9816d
 	path = module2
+	type = expand module
+[map "50b86c0b-d310-3ad6-94a3-6e08d1fd8db8"]
+	object = df9f572b30900d79da782df8682bb374aef9816d
+	path = module3
 	type = expand module
